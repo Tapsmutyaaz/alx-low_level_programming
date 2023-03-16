@@ -1,23 +1,15 @@
 #include <stdio.h>
 
 /**
-* You should produce the exact same output as in the example
-* Warnings are allowed
-*
-* Your program should return 0
-*/
-int main(void) 
+ * main - Entry
+ * Return: Always 0
+ */
+int main(void)
 {
-	char c;
-	int i;
-	long li;
-	long long lli;
-	float f;
-
-	printf("size of a char: %ld byte(s)\n", sizeof(c));
-	printf("size of a int: %ld byte(s)\n", sizeof(i));
-	printf("size of a long: %ld byte(s)\n", sizeof(li));
-	printf("size of a long long: %ld byte(s)\n", sizeof(lli));
-	printf("size of a float: %ld byte(s)\n", sizeof(f));
+	printf("size of a char: %i byte(s)\n", sizeof(char));
+	printf("size of a int: %i byte(s)\n", sizeof(int));
+	printf("size of a long: %i byte(s)\n", sizeof(long int));
+	printf("size of a long long: %i byte(s)\n", sizeof(long long int));
+	printf("size of a float: %i byte(s)\n", sizeof(float));
 	return (0);
-}
+
